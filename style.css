@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body{
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    outline: none;
+}
+button{
+    outline: none;
+}
+textarea{
+    outline: none;
+}
+header.headerArea {
+    display: flex;
+    background: #1a1a1f;
+    justify-content: space-between;
+    padding:10px 129px;
+    align-items: center;
+    position:fixed;
+    width:100%;
+}
+
+.navBer ul {
+    display: flex;
+    list-style: none;
+}
+
+.navBer ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition:0.3s;
+    color:#ddd;
+}
+
+.navBer ul li {
+    margin-left: 10px;
+    transition:0.3s
+}
+.logo{
+    transition: 0.2s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.logo a{
+    list-style: none;
+    text-decoration: none;
+}
+.logo a h1{
+    color: #c2ac37;
+    letter-spacing: 3px;
+}
+.navBer li:hover {
+    background: #fff;
+}
+
+.navBer li a:hover {
+    color: black;
+}
+.heroArea{
+    background: linear-gradient(#0000008f,#00000091),url(./img/HfpNyWo7Um89DknAYnoRcN.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding:210px 0px;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.herotext{
+    border-top:5px solid #c2ac37;
+    border-bottom:5px solid #c2ac37;
+}
+.herotext h1 {
+    text-align: center;
+    color: #ddd;
+    font-size: 102px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.herotext span {
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+.herotext h1:hover{
+    color:#c2ac37;
+}
+.herotext span:hover{
+    color:#c2ac37;
+}
+.container p{
+    text-align: center;
+    margin-top: 20px;
+    color:#fff;
+}
+.Welcomes{
+    display: flex;
+    justify-content: center;
+    background:black;
+    padding:150px 0;
+}
+.welcomeArea{
+    display: flex;
+    flex-flow: column;
+    flex-grow:1;
+    align-items: center;
+}
+.welcomeArea span{
+    padding:5px;
+    background:#c2ac37;
+    width: 100px;
+    border-radius: 50px;
+}
+.welcomeArea h1{
+    color:#ddd;
+    letter-spacing: 2px;
+    font-size: 105px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.button1{
+    margin-top:30px;
+    color:#fff;
+    padding:5px 15px;
+    font-size: 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+    background:linear-gradient(90deg, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size:400%;
+    cursor: pointer;
+}
+.button1:hover{
+    animation: animate 8s linear infinite;padding: 5px 25px;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.imagesGlarry{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+.glary{
+    display: flex;
+    flex-shrink: 1;
+    flex-flow:column wrap;
+    flex-grow: 1;
+}
+.itrms{
+    flex-basis:100%;
+    flex-shrink: 1;
+    padding-bottom: 50px;transition:0.3s;
+}
+.one{
+    background-image:url(./img/iimg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.one1{
+    background-image:url(./img/imgs.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.two{
+    background-image:url(./img/nikon-d850-review-2-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.two1{
+    background-image:linear-gradient(#0000008f,#00000091),url(./img/camera-1421992_960_720.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.fst-span{
+    display: block;
+    margin:50px auto 20px auto;
+    padding:5px;
+    background:#c2ac37;
+    width: 100px;
+    border-radius: 50px;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.lst-span{
+    margin:50px auto 20px auto;
+    display: block;
+    margin:auto;
+    padding:5px;
+    background:#c2ac37;
+    width: 100px;
+    border-radius: 50px;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.itrms h1{
+    text-align: center;
+    color:#ddd;
+    margin: 50px 0;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 400;
+}
+.itrms:hover .fst-span {
+    visibility:visible;
+    opacity: 1;
+}
+.itrms:hover .lst-span {
+    visibility:visible;
+    opacity: 1;
+}
+.itrms:hover h1{
+    visibility:visible;
+    opacity: 1;
+}
+.itrms h1:hover{
+    color:  #c2ac37;
+}
+.contactSection{
+    display: flex;
+    align-items: center;
+    background:black;
+    flex-grow: 1;
+    flex-direction: column;
+    color:#ddd;
+}
+.contactSection span{
+    padding:3px 20px;
+    border-radius: 30px;
+    background:#c2ac37;
+    margin:100px 0px 20px 0px;
+    width: 100px;
+}
+.contactSection h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.inputSec{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.inpt{
+    display: block;
+    background:transparent;
+    border:none;
+    padding:10px 0px;
+    text-align: center;
+    border-bottom: 1px solid #c2ac37;
+    color:#fff;
+    width: 500px;
+}
+.button{
+    width: 100px;
+    border:1px solid #ddd;
+    padding: 10px 15px;
+    background:transparent;
+    margin:10px auto 100px auto;
+    color:#fff;
+    transition: 0.3s;
+}
+.button:hover{
+    background:#fff;
+    color:black;
+}
+.cntct{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    background:  url(./img/png1.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.dd{ 
+    padding:3px 20px;
+    border-radius: 30px;
+    background:#c2ac37;
+    margin:100px 0px 20px 0px;
+    width: 100px
+}
+section.cntct  h1 {
+    color: #b29c26;
+    font-size: 64px;
+    letter-spacing: 9px;
+}
+section.cntct p {
+    text-align: center;
+    color: goldenrod;
+    letter-spacing: 2px;
+    line-height: 23px;
+    font-weight: 500;
+}
+.cntBtN{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cntBtN button{
+    padding:10px 15px;
+    background:transparent;
+    border:1px solid gold;
+    color:#fff;
+    margin-left:5px;
+    width:100px;
+    margin-top:50px;
+    transition: 0.3s;
+}
+.cntBtN button:hover{
+    color:black;
+    background:#ddd;
+    border:1px solid #fff;
+}
+.privcy{
+    margin-top:20px;
+    margin-bottom:100px;
+}
+.privcy span:first-child{
+    color:gold;
+}
+
+.privcy span:last-child{
+    color:#fff;
+}
